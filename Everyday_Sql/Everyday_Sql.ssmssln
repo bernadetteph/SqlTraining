@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Everyday_Sql", "Everyday_Sql\Everyday_Sql.ssmssqlproj", "{D4C6769D-F800-4F6A-BA36-875488439272}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "08_10_2023_class", "08_10_2023_class\08_10_2023_class.ssmssqlproj", "{314A978E-14CE-4765-B2FD-69550D90644B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "8_10_2023_homework", "8_10_2023_homework\8_10_2023_homework.ssmssqlproj", "{E3D919E1-BF5E-4CE5-9A3E-F2E2ACCA5EF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -12,6 +16,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D4C6769D-F800-4F6A-BA36-875488439272}.Default|Default.ActiveCfg = Default
 		{87915747-35E1-4FBB-9B38-58FC777D541E}.Default|Default.ActiveCfg = Default
+		{314A978E-14CE-4765-B2FD-69550D90644B}.Default|Default.ActiveCfg = Default
+		{E3D919E1-BF5E-4CE5-9A3E-F2E2ACCA5EF7}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
