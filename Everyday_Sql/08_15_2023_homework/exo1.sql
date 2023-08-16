@@ -3,4 +3,4 @@
 
 select CONCAT (name,+' '+ color, +' '+ProductNumber) [Concatenate_Info]
 from production.product
-order by productID
+
