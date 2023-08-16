@@ -1,0 +1,16 @@
+IF OBJECT_ID('[dbo].[LogTable]', 'U') IS NULL
+BEGIN
+CREATE TABLE [dbo].[LogTable](
+	[LogID] [int] IDENTITY(1,1) NOT NULL,
+	[TableName] [varchar](max) NULL,
+	[Operation] [varchar](20) NULL,
+	[TableData] [varchar](max) NULL,
+	[UpdatedDate] [datetime] NULL,
+ CONSTRAINT [PK_LogTable] PRIMARY KEY CLUSTERED 
+(
+	[LogID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+END
+
+
