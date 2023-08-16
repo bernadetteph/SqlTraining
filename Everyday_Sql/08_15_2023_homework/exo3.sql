@@ -2,5 +2,5 @@
 --characters of each product name.
 
 
-select left (name, 5)
+select left (name, 5)[5 leftmost char]
 from production.product
